@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive rating component </title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <section class="rating-card">
+      <div class="star-icon">
+        <img src="./images/icon-star.svg" alt="star svg">
+      </div>
+      <h2 class="rating__heading">How did we do?</h2>
+      <p class="rating__desc">Pleasee let us know how we did with your support request. All feedback is appreciated to
+        help us improve our offering!</p>
+
+      <div class="rating">
+        <ul class="rating__list">
+          <li class="rating__item">
+            <button class="rating-btn">1</button>
+          </li>
+          <li>
+            <button class="rating-btn">2</button>
+          </li>
+          <li>
+            <button class="rating-btn">3</button>
+          </li>
+          <li>
+            <button class="rating-btn">4</button>
+          </li>
+          <li>
+            <button class="rating-btn">5</button>
+          </li>
+        </ul>
+        </ul>
+
+        <button class="submit--btn" id="submit">SUBMIT</button>
+      </div>
+
+    </section>
+
+    <section class="thank-you-card rating-card">
+      <img src="./images/illustration-thank-you.svg" alt="thank you logo" width="100" height="100" class="thank__you__logo">
+      <p class="rating-selected"> You Selected <span id="span-rating" ></span>
+      out of 5</p>
+      
+      <h2 class="rating__heading__thank">Thank you!</h2>
+      <p class="thank__rating__desc">We appreciate you taking the time to give a rating if you ever need more support. don't hesitate to get in touch!</p>
+    </section>
+
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
